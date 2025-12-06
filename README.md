@@ -51,6 +51,15 @@ Se añadieron comentarios en formato /** ... */ para:
 - Facilitar la lectura, mantenimiento y comprensión general del proyecto para otros desarrolladores.
 - Con esta documentación, el código ahora es más entendible y cumple con los requisitos solicitados en la actividad.
 
+## ⚜[ACTIVIDADES EXTRAS](https://github.com/slserna/MAEATE/tree/master/documentos) ⚜
+
+|Actividad| Evidencias | LINKS |
+| ------------- |  --------|  ------------- |
+| Actividad 2: Demostración Funcional | Evidencia  | [Ver ejercicio](https://github.com/slserna/MAEATE/blob/master/documentos/Actividad-2/SernaRodriguezSaraLizbeth-Demo-U4.pdf)|
+| Actividad 3: Pruebas con Usuarios | Evidencia  | [Ver ejercicio](https://github.com/slserna/MAEATE/blob/master/documentos/Actividad-3/HernandezTorresAlondraVianney-Pruebas--U4%20.pdf)|
+| Carpeta docs/imágenes | Evidencias |  [Ver ejercicio](https://github.com/slserna/MAEATE/tree/master/documentos/Imagenes)|
+| Código fuente con comentarios KDoc/JSDoc | Evidencia |  [Ver ejercicio](https://github.com/slserna/MAEATE/blob/master/app/src/main/java/mx/edu/utng/avht/unidad2/MainActivity.kt)|
+
 ## 📂 Estructura del proyecto
 
 ```text
