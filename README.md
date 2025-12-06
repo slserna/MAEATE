@@ -37,6 +37,7 @@ Este proyecto se utiliza únicamente con fines educativos.
 - Gradle KTS
 
 ## 📂 Estructura del proyecto
+
 UNIDAD2/
 │── app/
 │   ├── src/main/java/… (código fuente)
@@ -48,6 +49,14 @@ UNIDAD2/
 │── settings.gradle.kts
 │── README.md
 
+## ✨Documentación del Código con KDoc
 
+Toda la base del código fue documentada utilizando KDoc, siguiendo buenas prácticas de documentación en Kotlin.
+Se añadieron comentarios en formato /** ... */ para:
+-Explicar el propósito de cada clase, ViewModel, pantalla y componente.
+- Describir las funcionalidades de cada función importante, incluyendo parámetros y valores de retorno.
+- Aclarar la lógica de elementos relacionados con navegación, mapas, repositorios, bases de datos, eventos de UI, y ViewModels.
+- Facilitar la lectura, mantenimiento y comprensión general del proyecto para otros desarrolladores.
+- Con esta documentación, el código ahora es más entendible y cumple con los requisitos solicitados en la actividad.
 
 
