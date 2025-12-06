@@ -35,24 +35,25 @@ Este proyecto se utiliza únicamente con fines educativos.
       👥 Pantalla de Comunidad<br>
       🔎 Explorar rutas desde la pantalla principal<br>
       📸 Integración futura para subida de imágenes desde cámara/galería<br>
-      🌙 Temas de color personalizados y diseño moderno en Compose<br>
+      🎨 Temas de color personalizados y diseño moderno en Compose<br>
       🧭 Navegación intuitiva entre pantallas con NavHost y routes
     </td>
 
     <td valign="top">
       <ul>
-        <li>Kotlin</li>
-        <li>Jetpack Compose</li>
-        <li>Material 3</li>
-        <li>Firebase Auth</li>
-        <li>Firebase Firestore</li>
-        <li>AndroidX Navigation Compose</li>
-        <li>ViewModel + StateFlow</li>
-        <li>Gradle KTS</li>
+        <li>🟣 Kotlin</li>
+        <li>🎨 Jetpack Compose</li>
+        <li>📐 Material 3</li>
+        <li>🔥 Firebase Auth</li>
+        <li>🗄️ Firebase Firestore</li>
+        <li>🧭 AndroidX Navigation Compose</li>
+        <li>🧠 ViewModel + StateFlow</li>
+        <li>⚙️ Gradle KTS</li>
       </ul>
     </td>
   </tr>
 </table>
+
 
 ---
 ## 📸 Capturas de la aplicación mapéate
