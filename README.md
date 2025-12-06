@@ -48,17 +48,20 @@ Este proyecto se utiliza únicamente con fines educativos.
 <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="300"/>
 
 #### 🗺️ Pantalla principal / Mapa
-<img src="Imagenes/Pantalla_Principal.jpeg" width="300"/>
-<img src="Imagenes/Pantalla_Mapa.jpeg" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Principal.jpeg" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="300"/>
+
+#### 📸 subir contenido al feed
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="300"/>
 
 #### 👤 Perfil de usuario
-<img src="Imagenes/Pantalla_Perfil.jpeg" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_SubirContenido.jpeg" width="300"/>
 
 #### 👥 Comunidad
-<img src="Imagenes/Pantalla_Comunidad.jpeg" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Comunidad.jpeg" width="300"/>
 
 #### 📝 Registro
-<img src="Imagenes/Pantalla_Registro.png" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Registro.png" width="300"/>
 
 
 
