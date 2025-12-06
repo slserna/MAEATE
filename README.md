@@ -38,16 +38,18 @@ Este proyecto se utiliza únicamente con fines educativos.
 
 ## 📂 Estructura del proyecto
 
+```text
 UNIDAD2/
-│── app/
-│   ├── src/main/java/… (código fuente)
-│   ├── src/main/res/… (layouts, drawables, strings)
-│── .gradle/
-│── .idea/
-│── gradle/
-│── build.gradle.kts
-│── settings.gradle.kts
-│── README.md
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/        (código fuente)
+│   │       └── res/         (layouts, drawables, strings)
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+
 
 ## ✨Documentación del Código con KDoc
 
