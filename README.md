@@ -40,10 +40,12 @@ Este proyecto se utiliza únicamente con fines educativos.
 - Gradle KTS
 ---
 
-## 📸 Capturas de la aplicación mapéate 
+---
+
+## 📸 Capturas de la aplicación mapéate
 
 #### 🔐 Inicio de sesión
-<img src="Imagenes/Pantalla_Inicio.png" width="300"/>
+<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="300"/>
 
 #### 🗺️ Pantalla principal / Mapa
 <img src="Imagenes/Pantalla_Principal.jpeg" width="300"/>
@@ -57,6 +59,7 @@ Este proyecto se utiliza únicamente con fines educativos.
 
 #### 📝 Registro
 <img src="Imagenes/Pantalla_Registro.png" width="300"/>
+
 
 
 ## ✨ Documentación del Código con KDoc
