@@ -1,4 +1,4 @@
-# 📱 UNIDAD2 — Aplicación Android
+# 📱 MAPÉATE 🗺 — Aplicación Android
 
 Proyecto académico desarrollado en Android Studio con Kotlin y Jetpack Compose, que integra autenticación, navegación entre pantallas y funcionalidades visuales como mapas y perfiles de usuario.
 
