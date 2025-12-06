@@ -42,26 +42,46 @@ Este proyecto se utiliza únicamente con fines educativos.
 
 ---
 
-## 📸 Capturas de la aplicación mapéate
-
 #### 🔐 Inicio de sesión
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="300"/>
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="260"/>
+</p>
+
+---
 
 #### 🗺️ Pantalla principal / Mapa
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Principal.jpeg" width="300"/>
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="300"/>
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Principal.jpeg" width="260"/>
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="260"/>
+</p>
 
-#### 📸 subir contenido al feed
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="300"/>
+---
+
+#### 📤 Subir contenido al feed
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_SubirContenido.jpeg" width="260"/>
+</p>
+
+---
 
 #### 👤 Perfil de usuario
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_SubirContenido.jpeg" width="300"/>
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Perfil.jpeg" width="260"/>
+</p>
+
+---
 
 #### 👥 Comunidad
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Comunidad.jpeg" width="300"/>
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Comunidad.jpeg" width="260"/>
+</p>
+
+---
 
 #### 📝 Registro
-<img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Registro.png" width="300"/>
+<p align="center">
+  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Registro.png" width="260"/>
+</p>
 
 
 
