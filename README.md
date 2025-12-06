@@ -48,17 +48,6 @@ UNIDAD2/
 │── settings.gradle.kts
 │── README.md
 
-Mapeate/
-├── assets/
-│   ├── logo.png          # Logo de la aplicación
-│   └── app_mockup.png    # Imagen de muestra de la interfaz
-├── docs/
-│   └── screenshots/      # Capturas de pantalla del proyecto
-├── index.html            # Estructura HTML de la página
-├── styles.css            # Estilos CSS
-├── .gitignore            # Archivos ignorados por git
-├── Mapeate.apk           # Archivo de instalación de la app (Placeholder)
-└── README.md             # Documentación del proyecto
 
 
 
