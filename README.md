@@ -38,7 +38,6 @@ Este proyecto se utiliza únicamente con fines educativos.
       🎨 Temas de color personalizados y diseño moderno en Compose<br>
       🧭 Navegación intuitiva entre pantallas con NavHost y routes
     </td>
-
     <td valign="top">
       <ul>
         <li>🟣 Kotlin</li>
