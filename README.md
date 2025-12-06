@@ -40,48 +40,55 @@ Este proyecto se utiliza únicamente con fines educativos.
 - Gradle KTS
 ---
 
----
+<table>
+  <tr>
+    <th>🔐 Inicio de sesión</th>
+    <th>🗺️ Pantalla principal</th>
+    <th>🗺️ Mapa</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="260"/>
+    </td>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Principal.jpeg" width="260"/>
+    </td>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="260"/>
+    </td>
+  </tr>
 
-#### 🔐 Inicio de sesión
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Inicio.png" width="260"/>
-</p>
+  <tr>
+    <th>📤 Subir contenido</th>
+    <th>👤 Perfil de usuario</th>
+    <th>👥 Comunidad</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_SubirContenido.jpeg" width="260"/>
+    </td>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Perfil.jpeg" width="260"/>
+    </td>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Comunidad.jpeg" width="260"/>
+    </td>
+  </tr>
 
----
+  <tr>
+    <th>📝 Registro</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Registro.png" width="260"/>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-#### 🗺️ Pantalla principal / Mapa
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Principal.jpeg" width="260"/>
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Mapa.jpeg" width="260"/>
-</p>
-
----
-
-#### 📤 Subir contenido al feed
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_SubirContenido.jpeg" width="260"/>
-</p>
-
----
-
-#### 👤 Perfil de usuario
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Perfil.jpeg" width="260"/>
-</p>
-
----
-
-#### 👥 Comunidad
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Comunidad.jpeg" width="260"/>
-</p>
-
----
-
-#### 📝 Registro
-<p align="center">
-  <img src="https://github.com/slserna/MAEATE/blob/master/documentos/Imagenes/Pantalla_Registro.png" width="260"/>
-</p>
 
 
 
