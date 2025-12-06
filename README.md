@@ -9,8 +9,11 @@ que los usuarios puedan conocer mas lugares y conocer mas lacultura en diversos 
 
 ## 👩‍💻 Autoras
 Sara Lizbeth Serna Rodríguez y Hernandez Torres Alondra vienney
+
 Grupo: GTID141
+
 Proyecto académico — Aplicaciones Móviles Unidaad 4
+
 Universidad Tecnologica del norte de Guanajuato (UTNG)
 
 ## 📄 Licencia
