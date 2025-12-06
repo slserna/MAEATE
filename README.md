@@ -18,14 +18,14 @@ Este proyecto se utiliza únicamente con fines educativos.
 
 ## 🚀 Funcionalidades principales
 
-🔐 Inicio de sesión y autenticación Firebase
-🗺️ Pantalla de Mapa Principal
-👤 Pantalla de Perfil de Usuario
-👥 Pantalla de Comunidad
-🔎 Explorar rutas desde la pantalla principal
-📸 Integración futura para subida de imágenes desde cámara/galería
-🌙 Temas de color personalizados y diseño moderno en Compose
-🧭 Navegación intuitiva entre pantallas con NavHost y routes
+🔐 Inicio de sesión y autenticación Firebase,
+🗺️ Pantalla de Mapa Principal,
+👤 Pantalla de Perfil de Usuario,
+👥 Pantalla de Comunidad,
+🔎 Explorar rutas desde la pantalla principal,
+📸 Integración futura para subida de imágenes desde cámara/galería,
+🌙 Temas de color personalizados y diseño moderno en Compose,
+🧭 Navegación intuitiva entre pantallas con NavHost y routes,
 🛠️ Tecnologías utilizadas:
 - Kotlin
 - Jetpack Compose
@@ -47,6 +47,7 @@ UNIDAD2/
 │── build.gradle.kts
 │── settings.gradle.kts
 │── README.md
+
 
 
 
