@@ -39,7 +39,7 @@ Este proyecto se utiliza únicamente con fines educativos.
 - ViewModel + StateFlow
 - Gradle KTS
 ---
-
+## 📸 Capturas de la aplicación mapéate
 <table>
   <tr>
     <th>🔐 Inicio de sesión</th>
