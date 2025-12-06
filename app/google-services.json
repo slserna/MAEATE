@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11011031700",
+    "project_id": "mapeat-c7cb8",
+    "storage_bucket": "mapeat-c7cb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11011031700:android:14306449c70df175d72a81",
+        "android_client_info": {
+          "package_name": "mx.edu.utng.avht.unidad2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaGttUX0mzv5lnpbS0VkTud2wnF6TPEu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
