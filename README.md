@@ -55,6 +55,7 @@ Este proyecto se utiliza únicamente con fines educativos.
 </table>
 
 
+
 ---
 ## 📸 Capturas de la aplicación mapéate
 <table>
