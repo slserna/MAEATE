@@ -13,6 +13,14 @@ import mx.edu.utng.avht.unidad2.data.ContentModel
 import java.util.UUID
 import kotlinx.coroutines.tasks.await
 
+/**
+ * Estado UI para la gestión de contenido.
+ *
+ * @property isLoading Indica si hay una operación en progreso
+ * @property isSuccess Indica si la última operación fue exitosa
+ * @property errorMessage Mensaje de error si algo falló, null si no hay error
+ * @property selectedImageUri URI de la imagen seleccionada para subir
+ */
 data class ContentUiState(
     val isLoading: Boolean = false,
     val isSuccess: Boolean = false,
@@ -20,21 +28,36 @@ data class ContentUiState(
     val selectedImageUri: Uri? = null
 )
 
+/**
+ * ViewModel para gestionar todo el contenido de la aplicación.
+ *
+ * Maneja la carga, creación, edición y eliminación de posts/contenido.
+ * También gestiona likes, comentarios y la interacción con Firestore.
+ *
+ * @param application Contexto de la aplicación para acceder a recursos
+ */
 class ContentViewModel(application: android.app.Application) : androidx.lifecycle.AndroidViewModel(application) {
     private val _uiState = MutableStateFlow(ContentUiState())
+    /** Estado UI observable para las pantallas de contenido */
     val uiState: StateFlow<ContentUiState> = _uiState.asStateFlow()
 
     private val auth = FirebaseAuth.getInstance()
     private val firestore = FirebaseFirestore.getInstance()
-    // private val storage = FirebaseStorage.getInstance() // Removed
 
     private val _posts = MutableStateFlow<List<ContentModel>>(emptyList())
+    /** Lista observable de todos los posts ordenados por fecha */
     val posts: StateFlow<List<ContentModel>> = _posts.asStateFlow()
 
     init {
         fetchPosts()
     }
 
+    /**
+     * Carga todos los posts desde Firestore en tiempo real.
+     *
+     * Establece un listener que actualiza la lista de posts automáticamente
+     * cuando hay cambios en la base de datos.
+     */
     private fun fetchPosts() {
         viewModelScope.launch {
             firestore.collection("contents")
@@ -53,10 +76,24 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
         }
     }
 
+    /**
+     * Actualiza la imagen seleccionada en el estado UI.
+     *
+     * @param uri URI de la imagen seleccionada o null para limpiar la selección
+     */
     fun onImageSelected(uri: Uri?) {
         _uiState.value = _uiState.value.copy(selectedImageUri = uri)
     }
 
+    /**
+     * Comprime y convierte una imagen a formato Base64.
+     *
+     * Redimensiona la imagen a máximo 800px y comprime a 60% de calidad
+     * para optimizar el tamaño antes de guardarla en Firestore.
+     *
+     * @param uri URI de la imagen a comprimir
+     * @return String en formato Base64 o null si hay error
+     */
     private fun compressAndEncodeImage(uri: Uri): String? {
         return try {
             val context = getApplication<android.app.Application>().applicationContext
@@ -90,6 +127,17 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
         }
     }
 
+    /**
+     * Sube nuevo contenido a Firestore.
+     *
+     * Procesa y sube la imagen seleccionada (si existe), obtiene información
+     * del usuario actual, y crea un nuevo documento de contenido en Firestore.
+     *
+     * @param title Título del contenido
+     * @param description Descripción del contenido
+     * @param lat Latitud de la ubicación
+     * @param lng Longitud de la ubicación
+     */
     fun uploadContent(title: String, description: String, lat: Double, lng: Double) {
         val user = auth.currentUser
         if (user == null) {
@@ -152,6 +200,14 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
         }
     }
 
+    /**
+     * Alterna el estado de "me gusta" para un post.
+     *
+     * Si el usuario ya le dio like, lo quita. Si no, lo agrega.
+     * Actualiza el contador de likes y la lista de usuarios que dieron like.
+     *
+     * @param content Modelo del contenido a dar/quitar like
+     */
     fun toggleLike(content: ContentModel) {
         val user = auth.currentUser ?: return
         val userId = user.uid
@@ -172,6 +228,15 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
         }
     }
 
+    /**
+     * Agrega un comentario a un post.
+     *
+     * Obtiene el username del usuario actual y crea un nuevo comentario
+     * en la subcolección de comentarios del post.
+     *
+     * @param contentId ID del post donde agregar el comentario
+     * @param text Texto del comentario
+     */
     fun addComment(contentId: String, text: String) {
         val user = auth.currentUser ?: return
         if (text.isBlank()) return
@@ -200,6 +265,15 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
         }
     }
 
+    /**
+     * Obtiene los comentarios de un post en tiempo real.
+     *
+     * Establece un listener que devuelve los últimos 3 comentarios
+     * ordenados por fecha descendente.
+     *
+     * @param contentId ID del post del que obtener comentarios
+     * @param callback Función que recibe la lista de comentarios
+     */
     fun fetchCommentsForPost(contentId: String, callback: (List<mx.edu.utng.avht.unidad2.data.CommentModel>) -> Unit) {
         firestore.collection("contents")
             .document(contentId)
@@ -219,6 +293,15 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
             }
     }
 
+    /**
+     * Obtiene todos los posts de un usuario específico.
+     *
+     * Establece un listener que devuelve posts del usuario ordenados
+     * por fecha descendente.
+     *
+     * @param userId ID del usuario del que obtener posts
+     * @param callback Función que recibe la lista de posts del usuario
+     */
     fun fetchUserPosts(userId: String, callback: (List<ContentModel>) -> Unit) {
         firestore.collection("contents")
             .whereEqualTo("userId", userId)
@@ -237,6 +320,13 @@ class ContentViewModel(application: android.app.Application) : androidx.lifecycl
             }
     }
 
+    /**
+     * Elimina un post de Firestore.
+     *
+     * @param postId ID del post a eliminar
+     * @param onSuccess Callback ejecutado si la eliminación es exitosa
+     * @param onError Callback ejecutado si hay error, recibe el mensaje de error
+     */
     fun deletePost(postId: String, onSuccess: () -> Unit = {}, onError: (String) -> Unit = {}) {
         firestore.collection("contents")
             .document(postId)

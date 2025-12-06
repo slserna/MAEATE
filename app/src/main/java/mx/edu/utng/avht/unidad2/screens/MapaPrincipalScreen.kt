@@ -22,6 +22,18 @@ import com.google.maps.android.compose.*
 import mx.edu.utng.avht.unidad2.BottomNav
 import mx.edu.utng.avht.unidad2.TopBar
 
+/**
+ * Pantalla principal del mapa interactivo con Google Maps.
+ *
+ * Permite al usuario seleccionar una ubicación en el mapa tocándolo.
+ * Cuando se selecciona una ubicación, aparece un FAB para crear contenido
+ * en esa ubicación. Solicita permisos de ubicación al usuario.
+ *
+ * @param onNavigateBack Callback para navegar de regreso
+ * @param onNavigateToPerfil Callback para navegar al perfil del usuario
+ * @param onNavigateToComunidad Callback para navegar a la comunidad
+ * @param onNavigateToContenido Callback para navegar a crear contenido, recibe lat y lng
+ */
 @Composable
 fun MapaPrincipalScreen(
     onNavigateBack: () -> Unit = {},
@@ -31,7 +43,7 @@ fun MapaPrincipalScreen(
 ) {
     val context = LocalContext.current
     val cameraPositionState = rememberCameraPositionState {
-        position = CameraPosition.fromLatLngZoom(LatLng(21.1619, -100.9300), 10f) // Dolores Hidalgo default
+        position = CameraPosition.fromLatLngZoom(LatLng(21.1619, -100.9300), 10f)
     }
 
     var selectedLocation by remember { mutableStateOf<LatLng?>(null) }
