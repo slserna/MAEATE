@@ -38,6 +38,25 @@ Este proyecto se utiliza únicamente con fines educativos.
 - AndroidX Navigation Compose
 - ViewModel + StateFlow
 - Gradle KTS
+---
+
+## 📸 Capturas de la aplicación mapéate 
+
+#### 🔐 Inicio de sesión
+<img src="Imagenes/Pantalla_Inicio.png" width="300"/>
+
+#### 🗺️ Pantalla principal / Mapa
+<img src="Imagenes/Pantalla_Principal.jpeg" width="300"/>
+<img src="Imagenes/Pantalla_Mapa.jpeg" width="300"/>
+
+#### 👤 Perfil de usuario
+<img src="Imagenes/Pantalla_Perfil.jpeg" width="300"/>
+
+#### 👥 Comunidad
+<img src="Imagenes/Pantalla_Comunidad.jpeg" width="300"/>
+
+#### 📝 Registro
+<img src="Imagenes/Pantalla_Registro.png" width="300"/>
 
 
 ## ✨ Documentación del Código con KDoc
