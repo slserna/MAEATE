@@ -53,6 +53,7 @@ UNIDAD2/
 
 Toda la base del código fue documentada utilizando KDoc, siguiendo buenas prácticas de documentación en Kotlin.
 Se añadieron comentarios en formato /** ... */ para:
+
 -Explicar el propósito de cada clase, ViewModel, pantalla y componente.
 - Describir las funcionalidades de cada función importante, incluyendo parámetros y valores de retorno.
 - Aclarar la lógica de elementos relacionados con navegación, mapas, repositorios, bases de datos, eventos de UI, y ViewModels.
