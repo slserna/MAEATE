@@ -118,7 +118,7 @@ Este proyecto se utiliza únicamente con fines educativos.
 Toda la base del código fue documentada utilizando KDoc, siguiendo buenas prácticas de documentación en Kotlin.
 Se añadieron comentarios en formato /** ... */ :
 
-- CLASE : ContentModel.kt
+```text CLASE: ContentModel.kt
 package mx.edu.utng.avht.unidad2.data
 
 /**
@@ -206,10 +206,6 @@ data class CommentModel(
     // Marca de tiempo del momento en que se creó el comentario
     val timestamp: Long = System.currentTimeMillis()
 )
-
-
-
-
 
 
 
