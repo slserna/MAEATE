@@ -119,8 +119,8 @@ Toda la base del código fue documentada utilizando KDoc, siguiendo buenas prác
 Se añadieron comentarios en formato /** ... */ :
 
 - CLASE : ContentModel.kt
-  ```text
-  package mx.edu.utng.avht.unidad2.data
+package mx.edu.utng.avht.unidad2.data
+
 /**
  * ContentModel
  *
@@ -206,6 +206,8 @@ data class CommentModel(
     // Marca de tiempo del momento en que se creó el comentario
     val timestamp: Long = System.currentTimeMillis()
 )
+
+
 
 
 
