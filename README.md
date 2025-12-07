@@ -4343,18 +4343,3 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
-_______________________________________________________________________________________________________________________________________________
-## 📂 Estructura del proyecto
-
-```text
-UNIDAD2/
-├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/        (código fuente)
-│   │       └── res/         (layouts, drawables, strings)
-├── gradle/
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
-
