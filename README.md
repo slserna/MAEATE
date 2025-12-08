@@ -1,5 +1,7 @@
 # 📱 MAPÉATE 🗺 — Aplicación Android
 
+PAGINA OFICIAL DE DESCARGA : https://polarrrses.github.io/
+
 Proyecto académico desarrollado en Android Studio con Kotlin y Jetpack Compose, que integra autenticación, navegación entre pantallas y funcionalidades visuales como mapas y perfiles de usuario.
 
 ## ✨ Descripción
