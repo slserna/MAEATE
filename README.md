@@ -1,6 +1,7 @@
 # 📱 MAPÉATE 🗺 — Aplicación Android
 
 Proyecto académico desarrollado en Android Studio con Kotlin y Jetpack Compose, que integra autenticación, navegación entre pantallas y funcionalidades visuales como mapas y perfiles de usuario.
+##  PAGINA WEB: https://polarrrses.github.io/
 
 ## ✨ Descripción
 Esta aplicación permite a los usuarios acceder con autenticación, navegar por diferentes secciones como Mapa Principal, Perfil, Comunidad y explorar contenido relacionado con rutas e información relevante.
